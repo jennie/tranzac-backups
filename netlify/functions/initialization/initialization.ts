@@ -43,6 +43,6 @@ export const handler: Handler = async (event, context) => {
     body: JSON.stringify({
       message: `Initialization completed successfully!`,
     }),
-    headers: { "Access-Control-Allow-Origin": "*" },
+    headers: { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "*", "Access-Control-Allow-Headers": "*" },
   };
 };
