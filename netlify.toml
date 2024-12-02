@@ -1,2 +1,5 @@
 [template.environment]
-  DATOCMS_FULLACCESS_TOKEN = "Input you DatoCMS project Full Access Token"
+  DATOCMS_FULLACCESS_TOKEN = "88dc70d4493e4f22c515cf0e099ad7"
+
+[build]
+  publish = "dist"
